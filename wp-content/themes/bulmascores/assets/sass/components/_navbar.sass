@@ -1,14 +1,25 @@
 /* main: ../bulmascores.sass */
 
 .navbar
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2)
+  &.is-transparent
+    background-color: transparent
+
+  .navbar-start
+    border-left: 1px solid $xlayer-grey-lighter
+
+  .navbar-item
+    transition: .3s
+    img
+      max-height: none
+    &:hover
+      color: $xlayer-grey
+
 
 .custom-logo
   width: 150px
   height: auto
 
-.navbar-item img
-  max-height: none
+
 
 #social-icons a:hover
   opacity: 0.5
