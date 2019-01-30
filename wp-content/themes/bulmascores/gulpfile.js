@@ -9,10 +9,10 @@ var wppot = require('gulp-wp-pot');
 
 // VARIABLES
 const WORDPRESS = {
-  localDomain: 'http://nicuz.local',
-  textdomain: 'bulmascores',
-  admin: 'Domenico Majorana <nico.majorana@gmail.com>',
-  team: 'Domenico Majorana <nico.majorana@gmail.com>'
+  // localDomain: 'http://nicuz.local',
+  // textdomain: 'bulmascores',
+  // admin: 'Domenico Majorana <nico.majorana@gmail.com>',
+  // team: 'Domenico Majorana <nico.majorana@gmail.com>'
 }
 
 const PATHS = {
