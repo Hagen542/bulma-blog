@@ -7,6 +7,22 @@ $comment_border-color: #ddd
 $comment-author-bg-color: #f5f5f5
 $textarea-border-color: #dbdbdb
 
+// Primary
+$xlayer-grey-darker: #282828
+$xlayer-grey: #505050
+$xlayer-grey-lightest: #F0F0F0
+$Xlayer-white: #FFFFFF
+$xlayer-orange: #FF7D00
+$xlayer-blue: #0094FF
+// Secondary
+$xlayer-grey-dark: #3A3A3A
+$xlayer-grey-light: #6F6F6F
+$xlayer-grey-lighter: #DADADA
+$xlayer-orange-dark: #EE7500
+$xlayer-orange-light: #FC9028
+$xlayer-blue-dark: #007DD8
+$xlayer-blue-light: #21A2FF
+
 // Media queries breakpoints
 $mobile: 768px
 $tablet: 769px
@@ -14,10 +30,97 @@ $desktop: 1024px
 $widescreen: 1216px
 $fullhd: 1408px
 
+// Typography
+$size-1: 3rem
+$size-2: 2.25rem
+$size-3: 1.875rem
+$size-4: 1.5rem
+$size-5: 1.125rem
+
+// Set your colors
+$primary: $xlayer-orange
+$primary-invert: findColorInvert($primary)
+$light: $xlayer-grey-lightest
+$dark: $xlayer-grey-darker
+$grey-darker: $xlayer-grey-darker
+$grey-dark: $xlayer-grey
+
+// Import Fonts
+@font-face
+  font-family: 'Gotham'
+  font-weight: 200
+  src: url('../sass/fonts/gotham/Gotham-Light.otf')
+
+@font-face
+  font-family: 'Gotham'
+  font-weight: 200
+  font-style: italic
+  src: url('../sass/fonts/gotham/Gotham-LightItalic.otf')
+
+@font-face
+  font-family: 'Gotham'
+  font-weight: 400
+  src: url('../sass/fonts/gotham/Gotham-Book.otf')
+
+@font-face
+  font-family: 'Gotham'
+  font-weight: 400
+  font-style: italic
+  src: url('../sass/fonts/gotham/Gotham-BookItalic.otf')
+
+@font-face
+  font-family: 'Gotham'
+  font-weight: 600
+  src: url('../sass/fonts/gotham/Gotham-Medium.otf')
+
+@font-face
+  font-family: 'Gotham'
+  font-weight: 600
+  font-style: italic
+  src: url('../sass/fonts/gotham/Gotham-MediumItalic.otf')
+
+@font-face
+  font-family: 'Gotham'
+  font-weight: 800
+  src: url('../sass/fonts/gotham/Gotham-Bold.otf')
+
+@font-face
+  font-family: 'Gotham'
+  font-weight: 800
+  font-style: italic
+  src: url('../sass/fonts/gotham/Gotham-BoldItalic.otf')
+
+
+// Fonts
+$body-family: "Gotham", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+
+$text: $grey-dark
+$strong-color: $grey-dark
+
+// Setup $colors to use as bulma classes (e.g. 'is-twitter')
+  $colors: (
+    "white": ($white, $black),
+    "black": ($black, $white),
+    "light": ($light, $dark),
+    "dark": ($dark, $light),
+    "primary": ($primary, $primary-invert),
+    "info": ($info, $info-invert),
+    "success": ($success, $success-invert),
+    "warning": ($warning, $warning-invert),
+    "danger": ($danger, $danger-invert)
+  )
+
+// Links
+$link: $primary
+$link-invert: $primary-invert
+$link-focus-border: $primary
+
 body
   display: flex
   min-height: 100vh
   flex-direction: column
+  background-color: $xlayer-grey-lightest
+  font-family: $body-family
 
 a, a:hover
   color: $link-color
