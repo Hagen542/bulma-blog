@@ -1,0 +1,136 @@
+# Copyright (C) 2019 unnamed project
+# This file is distributed under the same license as the unnamed project package.
+msgid ""
+msgstr ""
+"Project-Id-Version: unnamed project\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found. Why don&rsquo;t you try to search something?"
+msgstr ""
+
+#: comments.php:27
+msgid "Reply"
+msgstr ""
+
+#: comments.php:34
+msgid "Edit"
+msgstr ""
+
+#: comments.php:53
+msgid "no comments"
+msgstr ""
+
+#: comments.php:54
+msgid "one comment"
+msgstr ""
+
+#: comments.php:55
+msgid "% comments"
+msgstr ""
+
+#: comments.php:74
+msgid "Comments are closed."
+msgstr ""
+
+#. translators: 1: Theme name, 2: Theme author.
+#: footer.php:18
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:46
+msgid "Primary"
+msgstr ""
+
+#: functions.php:121
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:123
+msgid "Add widgets here."
+msgstr ""
+
+#: index.php:27
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:15
+msgid "Search &hellip;"
+msgstr ""
+
+#: inc/bulma-pagination.php:30, inc/bulma-pagination.php:32
+msgid "Previous"
+msgstr ""
+
+#: inc/bulma-pagination.php:37, inc/bulma-pagination.php:40
+msgid "Next"
+msgstr ""
+
+#: template-parts/contents/content-frontpage-OLD.php:81, template-parts/contents/content-frontpage.php:39
+msgid "View all posts"
+msgstr ""
+
+#: template-parts/contents/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/contents/content-none.php:25
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/contents/content-none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/contents/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/contents/content-social.php:4
+msgid "Share"
+msgstr ""
+
+#: template-parts/contents/content-social.php:9
+msgid "Facebook"
+msgstr ""
+
+#: template-parts/contents/content-social.php:15
+msgid "Twitter"
+msgstr ""
+
+#: template-parts/contents/content-social.php:21
+msgid "Telegram"
+msgstr ""
+
+#: template-parts/contents/content-social.php:27
+msgid "WhatsApp"
+msgstr ""
+
+#: template-parts/loops/loop-page.php:29, template-parts/loops/loop-single.php:45
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/loops/loop-single.php:24, template-parts/loops/loop.php:20
+msgid "Last modified&nbsp;"
+msgstr ""
+
+#: template-parts/loops/loop-single.php:25, template-parts/loops/loop.php:21
+msgid "by&nbsp;"
+msgstr ""
+
+#: template-parts/loops/loop.php:40
+msgid "Read More"
+msgstr ""
