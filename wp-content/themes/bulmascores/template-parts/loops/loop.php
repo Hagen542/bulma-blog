@@ -36,7 +36,7 @@
     </div><!-- .post-content -->
 
     <footer>
-        <a href="<?php the_permalink(); ?>"> Read more <i class="far fa-chevron-right"></i></a>
+        <a class="arrow-btn" href="<?php the_permalink(); ?>">Read more<i class="far fa-chevron-right"></i></a>
     </footer>
 
 </article><!-- #post-<?php the_ID(); ?> -->

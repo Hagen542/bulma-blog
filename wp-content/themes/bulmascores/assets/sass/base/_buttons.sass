@@ -1,0 +1,65 @@
+//Buttons
+.button
+  transition: background-color 100ms ease-in-out, border-color 100ms ease-in-out, color 100ms ease-in-out
+
+  &.is-primary
+    &:hover
+      background-color: $xlayer-orange-light
+
+    &:active
+      background-color: $xlayer-orange-dark
+
+
+  &.is-action
+    background-color: $xlayer-blue
+    color: white
+    border-color: transparent
+    &:hover
+      background-color: $xlayer-blue-light
+
+    &:active
+      background-color: $xlayer-blue-dark
+
+    &:focus:not(:active)
+      box-shadow: 0 0 0 0.125em rgba(0, 150, 255, 0.25)
+
+  &.is-secondary
+    background-color: transparent
+    border-color: $xlayer-grey-lightest
+    color: $xlayer-grey-lightest
+
+    &:hover
+      border-color: white
+      color: white
+
+    &:active
+      border-color: $xlayer-grey-lighter
+      color: $xlayer-grey-lighter
+
+    &:focus:not(:active)
+      box-shadow: 0 0 0 0.125em rgba(255, 255, 255, 0.25)
+
+    &.has-light-background
+      border-color: $xlayer-grey
+      color: $xlayer-grey
+
+      &:hover
+        border-color: black
+        color: black
+
+      &:active
+        border-color: $xlayer-grey-light
+        color: $xlayer-grey-light
+
+      &:focus:not(:active)
+        box-shadow: 0 0 0 0.125em rgba(25, 25, 25, 0.25)
+
+a.arrow-btn
+  &:hover
+    text-decoration: underline
+    i
+      text-decoration: none
+  i
+    color: $primary
+    margin-left: .5rem
+
