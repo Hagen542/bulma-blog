@@ -36,13 +36,11 @@
 			wp_reset_postdata();
 			?>
 
-			<a class="button is-large" href="<?php echo esc_url_raw( get_permalink( get_option( 'page_for_posts' ) ) ); ?>"><?php esc_html_e( 'View all posts', 'bulmascores' ); ?></a>
-
-		</div><!-- .columns is-8 -->
+		</div><!-- .columns is-9 -->
 
 		<div class="column is-3">
 			<?php get_sidebar(); ?>
-		</div><!-- .columns is-4 -->
+		</div><!-- .columns is-3 -->
 
 	</div><!-- .columns -->
 
