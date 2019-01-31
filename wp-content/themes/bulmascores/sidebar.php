@@ -14,7 +14,7 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
 
 <aside id="secondary" class="widget-area menu">
     <div class="subscribe-box box has-background-grey-darker"> <!-- The sign up for our newsletter -->
-        <h2 class="title is-size-5 has-text-white">Sign up to our newsletter</h2>
+        <h2 class="title is-size-4 has-text-white">Sign up to our newsletter</h2>
         <p class="has-margin-b-5 has-text-white">Get the most awesome content delivered straight to your inbox!</p>
         <form action="https://ext.mnm.as/subscribe.asp" accept-charset="utf-8" method="post">
             <input type="hidden" name="f" value="3718" />
@@ -43,7 +43,5 @@ if ( ! is_active_sidebar( 'sidebar-1' ) ) {
             </div>
         </form>
     </div><!-- The sign up for our newsletter END -->
-    <div class="box">
         <?php dynamic_sidebar( 'sidebar-1' ); ?>
-    </div>
 </aside><!-- #secondary -->
