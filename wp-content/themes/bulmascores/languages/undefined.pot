@@ -21,27 +21,27 @@ msgstr ""
 msgid "Oops! That page can&rsquo;t be found. Why don&rsquo;t you try to search something?"
 msgstr ""
 
-#: comments.php:27
+#: comments-DONTUSE.php:27
 msgid "Reply"
 msgstr ""
 
-#: comments.php:34
+#: comments-DONTUSE.php:34
 msgid "Edit"
 msgstr ""
 
-#: comments.php:53
+#: comments-DONTUSE.php:53
 msgid "no comments"
 msgstr ""
 
-#: comments.php:54
+#: comments-DONTUSE.php:54
 msgid "one comment"
 msgstr ""
 
-#: comments.php:55
+#: comments-DONTUSE.php:55
 msgid "% comments"
 msgstr ""
 
-#: comments.php:74
+#: comments-DONTUSE.php:74
 msgid "Comments are closed."
 msgstr ""
 
@@ -78,7 +78,7 @@ msgstr ""
 msgid "Next"
 msgstr ""
 
-#: template-parts/contents/content-frontpage-OLD.php:81, template-parts/contents/content-frontpage.php:39
+#: template-parts/contents/content-frontpage-OLD.php:81
 msgid "View all posts"
 msgstr ""
 
@@ -119,18 +119,14 @@ msgstr ""
 msgid "WhatsApp"
 msgstr ""
 
-#: template-parts/loops/loop-page.php:29, template-parts/loops/loop-single.php:45
+#: template-parts/loops/loop-page.php:29, template-parts/loops/loop-single.php:47
 msgid "Pages:"
 msgstr ""
 
-#: template-parts/loops/loop-single.php:24, template-parts/loops/loop.php:20
+#: template-parts/loops/loop-single.php:34
 msgid "Last modified&nbsp;"
 msgstr ""
 
-#: template-parts/loops/loop-single.php:25, template-parts/loops/loop.php:21
+#: template-parts/loops/loop-single.php:35
 msgid "by&nbsp;"
-msgstr ""
-
-#: template-parts/loops/loop.php:40
-msgid "Read More"
 msgstr ""
