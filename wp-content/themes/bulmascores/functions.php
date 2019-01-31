@@ -132,7 +132,7 @@ add_action( 'widgets_init', 'bulmascores_widgets_init' );
 // Enqueue scripts and styles.
 function bulmascores_scripts() {
 	wp_enqueue_style( 'bulmascores-bulma-css', '//cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css', array(), null );
-	wp_enqueue_style( 'bulmascores-fontawesome', '//use.fontawesome.com/releases/v5.0.13/css/all.css', array(), null );
+    //wp_enqueue_style( 'bulmascores-fontawesome', '//use.fontawesome.com/releases/v5.0.13/css/all.css', array(), null ); // We use The Pro version (CDN in header.php)
 	wp_enqueue_style( 'bulmascores-overrides-style', get_template_directory_uri() . '/assets/css/bulmascores.min.css', array(), null );
 	wp_enqueue_script( 'bulmascores-burger-js', get_template_directory_uri() . '/assets/js/bulma_nav_burger.js', array(), null, true );
 
