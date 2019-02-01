@@ -11,8 +11,8 @@
 
 <main id="main" class="container">
 
-	<div class="columns">
-		<div class="column is-9">
+	<div class="columns is-multiline">
+		<div class="column is-12 is-9-widescreen">
 
 			<?php
 			// The Query
@@ -38,7 +38,7 @@
 
 		</div><!-- .columns is-9 -->
 
-		<div class="column is-3">
+		<div class="column is-12 is-3-widescreen">
 			<?php get_sidebar(); ?>
 		</div><!-- .columns is-3 -->
 

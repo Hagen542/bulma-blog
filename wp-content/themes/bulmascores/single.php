@@ -12,8 +12,8 @@ get_header(); ?>
 <div id="primary" class="content-area section">
 	<main id="main" class="container">
 
-		<div class="columns is-centered">
-			<div class="column is-9">
+		<div class="columns is-centered is-multiline">
+			<div class="column is-9-widescreen is-12">
 				<?php
 				while ( have_posts() ) : the_post();
 
@@ -28,7 +28,7 @@ get_header(); ?>
 				?>
 
 			</div><!-- .columns is-9 -->
-            <div class="column is-3">
+            <div class="column is-3-widescreen is-12">
                 <?php get_sidebar(); ?>
             </div><!-- .columns is-3 -->
 		</div><!-- .columns -->

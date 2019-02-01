@@ -22,7 +22,7 @@
 
     <div class="content">
         <div class="columns is-centered">
-            <div class="column is-9">
+            <div class="column is-9-widescreen">
                 <header class="post-header">
                     <?php the_title( '<h1 class="title is-1">', '</h1>' ); ?>
                     <!--<?php //the_subtitle( '<h2 class="subtitle">', '</h2>' ); ?>-->

@@ -100,23 +100,7 @@ msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searc
 msgstr ""
 
 #: template-parts/contents/content-social.php:4
-msgid "Share"
-msgstr ""
-
-#: template-parts/contents/content-social.php:9
-msgid "Facebook"
-msgstr ""
-
-#: template-parts/contents/content-social.php:15
-msgid "Twitter"
-msgstr ""
-
-#: template-parts/contents/content-social.php:21
-msgid "Telegram"
-msgstr ""
-
-#: template-parts/contents/content-social.php:27
-msgid "WhatsApp"
+msgid "Found this post interesting?"
 msgstr ""
 
 #: template-parts/loops/loop-page.php:29, template-parts/loops/loop-single.php:47

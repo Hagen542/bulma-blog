@@ -38,14 +38,14 @@
 						</a>
 					<?php } ?>
 
-					<div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
-						<span></span>
-						<span></span>
-						<span></span>
-					</div>
+<!--					<div class="navbar-burger burger" data-target="navbarExampleTransparentExample">-->
+<!--						<span></span>-->
+<!--						<span></span>-->
+<!--						<span></span>-->
+<!--					</div>-->
 				</div><!-- .navbar-brand -->
 
-				<div id="navbarExampleTransparentExample" class="navbar-menu">
+				<div id="navbarExampleTransparentExample" class="navbar-menu is-active">
 					<div class="navbar-start">
 						<?php wp_nav_menu(array(
 							'theme-location' => 'menu-1', //change it according to your register_nav_menus() function
