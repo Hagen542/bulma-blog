@@ -33,7 +33,7 @@
 					if ( has_custom_logo() ) {
 						the_custom_logo();
 					} else { ?>
-						<a class="navbar-item" href="<?php echo esc_url_raw( home_url() );?>">
+						<a class="navbar-item" href="//test.xlayer.no">
 							<h1><?php bloginfo( 'name' ); ?></h1>
 						</a>
 					<?php } ?>

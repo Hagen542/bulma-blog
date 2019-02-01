@@ -11,12 +11,9 @@
 
 ?>
 
-<footer class="footer is-light">
+<footer class="footer has-background-dark">
 	<div class="container">
-		<?php
-		/* translators: 1: Theme name, 2: Theme author. */
-		printf( esc_html__( 'Theme: %1$s by %2$s.', 'bulmascores' ), 'bulmascores', '<a href="https://github.com/Nicuz" target="_blank">Domenico Majorana</a>' );
-		?>
+
 	</div><!-- .container -->
 </footer><!-- #site-footer -->
 

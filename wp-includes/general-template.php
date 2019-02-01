@@ -895,7 +895,7 @@ function get_custom_logo( $blog_id = 0 ) {
 		 * it because wp_get_attachment_image() already adds the alt attribute.
 		 */
 		$html = sprintf( '<a href="%1$s" class="custom-logo-link" rel="home" itemprop="url">%2$s</a>',
-			esc_url( home_url( '/' ) ),
+			esc_url( 'xlayer.no' ),
 			wp_get_attachment_image( $custom_logo_id, 'full', false, $custom_logo_attr )
 		);
 	}

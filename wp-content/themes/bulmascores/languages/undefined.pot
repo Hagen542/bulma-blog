@@ -45,11 +45,6 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#. translators: 1: Theme name, 2: Theme author.
-#: footer.php:18
-msgid "Theme: %1$s by %2$s."
-msgstr ""
-
 #: functions.php:46
 msgid "Primary"
 msgstr ""
